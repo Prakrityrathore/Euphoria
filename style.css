@@ -42,3 +42,48 @@
     background: red;
     border-radius: 2px;
 }
+.wrapper .centre{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+.centre h1{
+    color: azure;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.centre h2{
+    color: azure;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 885px;
+    text-align: center;
+}
+.centre .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height:50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: azure;
+    background: red;
+    border: 1px solid wheat;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background:tomato;
+
+
+}
